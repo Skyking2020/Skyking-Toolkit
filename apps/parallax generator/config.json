@@ -1,0 +1,25 @@
+{
+  "default": {
+        "contrast_factor": 0.4,
+        "clamp_low": 60,
+        "clamp_high": 200,
+        "blur_radius": 4,
+        "red_value": 75,
+        "green_value": 65,
+        "blue_value": 75,
+        "red_brightness": 1.0,
+        "green_brightness": 1.0,
+        "blue_brightness": 1.0
+  },
+  "categories": {
+    "wood":      { "contrast_factor": 0.3 },
+    "path":      { "contrast_factor": 0.5 }
+  },
+  "overrides": {
+    "mountainslab01": { "contrast_factor": 0.5 },
+    "mountainslab02": { "contrast_factor": 0.5 }
+  },
+  "exclude": [
+    "window"
+  ]
+}

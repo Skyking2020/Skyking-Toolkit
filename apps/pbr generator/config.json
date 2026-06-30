@@ -1,0 +1,96 @@
+{
+  "aliases": {
+    "albedo": [
+      "albedo",
+      "basecolor",
+      "base_color",
+      "base color",
+      "diffuse",
+      "diff",
+      "color",
+      "col",
+      "d"
+    ],
+    "normal": [
+      "normal",
+      "normalgl",
+      "normal_gl",
+      "normaldx",
+      "normal_dx",
+      "norm",
+      "n"
+    ],
+    "roughness": [
+      "roughness",
+      "rough",
+      "r"
+    ],
+    "metallic": [
+      "metallic",
+      "metalness",
+      "metal",
+      "m"
+    ],
+    "ao": [
+      "ao",
+      "ambientocclusion",
+      "ambient_occlusion",
+      "occlusion"
+    ],
+    "height": [
+      "height",
+      "displacement",
+      "disp",
+      "parallax",
+      "bump"
+    ],
+    "emissive": [
+      "emissive",
+      "emission",
+      "emit"
+    ],
+    "opacity": [
+      "opacity",
+      "alpha",
+      "transparency"
+    ]
+  },
+  "defaults": {
+    "emissive": false,
+    "parallax": true,
+    "specular_level": 0.04,
+    "roughness_scale": 1.0,
+    "subsurface_color": [
+      1,
+      1,
+      1
+    ],
+    "subsurface_opacity": 1.0,
+    "smooth_angle": 70,
+    "displacement_scale": 0.4
+  },
+  "keywords": {
+    "wood": 0.25,
+    "plank": 0.25,
+    "planks": 0.25,
+    "shingles": 0.8,
+    "roof": 0.6,
+    "stone": 0.75,
+    "brick": 0.7,
+    "dirt": 0.2,
+    "ground": 0.3,
+    "floor": 0.4,
+    "wall": 0.6,
+    "walls": 0.6,
+    "door": 0.4,
+    "doors": 0.25,
+    "stairs": 0.5,
+    "steps": 0.5,
+    "metal": 0.25,
+    "iron": 0.25,
+    "glass": 0.25
+  },
+  "file_overrides": {
+    "riftenwindows02": 0.25
+  }
+}
